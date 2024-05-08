@@ -1,0 +1,38 @@
+{
+    "camera": "Logitech Webcam C925e (046d:085b)",
+    "platform": "Windows NT 10.0; Win64; x64",
+    "avg_reprojection_error": 0.24161023477972038,
+    "camera_matrix": [
+        [
+            635.3743433148042,
+            0,
+            335.25678052537035
+        ],
+        [
+            0,
+            639.5865866015889,
+            244.50755573933637
+        ],
+        [
+            0,
+            0,
+            1
+        ]
+    ],
+    "distortion_coefficients": [
+        0.03843197821443714,
+        -0.13773331981711934,
+        -0.0004603474945041381,
+        0.002767313475790507,
+        0.092320474121936
+    ],
+    "distortion_model": "rectilinear",
+    "img_size": [
+        640,
+        480
+    ],
+    "calibration_time": "Mon, 08 Jan 2024 01:48:18 GMT",
+    "caveats": [
+        "cropped"
+    ]
+}

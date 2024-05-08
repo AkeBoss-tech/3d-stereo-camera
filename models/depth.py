@@ -22,7 +22,7 @@ def load_depth_model():
     return image_processor, model
 
 # Initialize camera
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Load depth estimation model
 image_processor, model = load_depth_model()
