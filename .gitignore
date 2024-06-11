@@ -1,2 +1,5 @@
 
 /output/depth_GLPN_3d
+# ignore all the html files in output/
+/output/*.html
+yolov8m.pt
