@@ -35,6 +35,10 @@ image_processor, depth_model = load_depth_model()
 
 # Loop through all the pictures
 for file in os.listdir("pictures"):
+    if not "pro" in file:
+        continue
+    if "trash" in file: 
+        continue
     print(file)
     # load the image
     image = cv2.imread(f"pictures/{file}")

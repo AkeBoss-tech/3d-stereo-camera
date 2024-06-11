@@ -7,7 +7,7 @@ import cv2
 cap = cv2.VideoCapture(1)
 
 # Initialize counter
-count = 0
+count = 50
 
 # Run loop to capture images
 while True:
