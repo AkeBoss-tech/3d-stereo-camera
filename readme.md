@@ -37,7 +37,7 @@ Residual Plots for Distance for each Model
 Right Input Image
 
 ### Figure 4
-![Figure 4](output\stereo_disparity_map.png)
+![Figure 4](output/stereo_disparity_map.png)
 
 Stereo Depth Map
 
