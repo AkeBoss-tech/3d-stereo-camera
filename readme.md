@@ -21,7 +21,40 @@ A type of computer vision called stereo vision utilizes input from 2 perspective
 - ChatGPT: aided us with coding the stereo vision model
 
 ## <center>Visualizations</center>
-we have a bunch of figures
+
+### Figure 1
+![Figure 1](media/results.png)
+Depth Estimation at Different Positions for Models
+
+### Figure 2
+![Figure 2](media/boxplot.png)
+
+Residual Plots for Distance for each Model
+
+### Figure 3
+![Figure 3](pictures/right_image.jpg)
+
+Right Input Image
+
+### Figure 4
+![Figure 4](output\stereo_disparity_map.png)
+
+Stereo Depth Map
+
+### Figure 5
+![Figure 5](output\intel_disparity_map.png)
+
+Intel Depth Map
+
+### Figure 6
+![Figure 6](output\glpn_disparity_map.png)
+
+GLPN-NYU Depth Map
+
+### Figure 7
+![Figure 7](output\glpn_3d.png)
+
+3D image created with GLPN-NYU model
 
 ## <center>Methods</center>
 - Coded stereo vision model, used SGBM to match images, then took test photos
@@ -54,7 +87,13 @@ Folders in the repository:
 - `pictures`: contains the images we used to test our setup
 
 Important Files:
-TODO
+- `lolz.py`: the main file that contains the stereo vision model (took a lot of testing to get right hence the lolz)
+    - `calib.py`: stores calibration data as a numpy array
+- `output-intel.py`: the file that runs the [Intel depth estimation model](https://huggingface.co/Intel/dpt-hybrid-midas)
+- `output-glpn.py`: the file that runs the [GLPN-NYU depth estimation model](https://huggingface.co/vinvino02/glpn-nyu)
+- `pics.py`: the file that takes the photos to store in the `pictures` folder
+- `/data-analysis/main.ipynb`: the Jupyter notebook that contains the T-test and data analysis
+- `live.py`: the script that runs the intel depth estimation model on live video
 
 ## <center>References</center>
 What is Computer Vision?: Microsoft Azure. What Is Computer Vision? | Microsoft Azure. (n.d.). https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-computer-vision#object-classification 
